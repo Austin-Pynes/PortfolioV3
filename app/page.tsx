@@ -56,9 +56,9 @@ export default function HomePage() {
         <div className="flex items-center gap-6 md:gap-10 flex-wrap mb-10">
           {[
             { label: "Age", value: "13", color: "text-retro-gold" },
-            { label: "Year", value: "8", color: "text-retro-teal" },
-            { label: "Languages", value: "5+", color: "text-retro-rose" },
-            { label: "Projects", value: "10+", color: "text-retro-lime" },
+            { label: "Years", value: "2", color: "text-retro-teal" },
+            { label: "Languages", value: "4", color: "text-retro-rose" },
+            { label: "Projects", value: "2", color: "text-retro-lime" },
           ].map((stat) => (
             <div key={stat.label}>
               <p className={`font-mono text-2xl md:text-3xl font-bold ${stat.color}`}>
