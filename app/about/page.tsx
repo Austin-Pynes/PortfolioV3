@@ -8,16 +8,16 @@ export const metadata: Metadata = {
 }
 
 const facts = [
-  { key: "name", value: "[Your Name Here]" },
+  { key: "name", value: "Austin Pyne" },
   { key: "age", value: "13" },
   { key: "school_year", value: "Year 8" },
-  { key: "location", value: "United Kingdom" },
-  { key: "fav_language", value: "JavaScript / Python" },
+  { key: "location", value: "New Zealand" },
+  { key: "fav_language", value: "JavaScript / TypeScript" },
   { key: "fav_framework", value: "React + Next.js" },
   { key: "fav_editor", value: "VS Code" },
   { key: "fav_theme", value: "One Dark Pro" },
   { key: "fav_game", value: "Minecraft" },
-  { key: "os", value: "Windows 11 (want to try Linux)" },
+  { key: "os", value: "Linux (Way better than Windows)" },
   { key: "dream_job", value: "Software Engineer" },
 ]
 
@@ -25,30 +25,30 @@ const timeline = [
   {
     year: "2023",
     title: "The Beginning",
-    desc: "Started with Scratch and made my first game -- a terrible platformer that I was incredibly proud of.",
+    desc: "Started with Scratch and made my first game, a terrible platformer that I was incredibly proud of.",
     color: "border-retro-lime",
   },
   {
     year: "2023",
-    title: "HTML + CSS Era",
-    desc: "Discovered you could make websites with actual code. Made my first (ugly) homepage.",
+    title: "Quitting",
+    desc: "Gave up on learning to code because I thought it was too hard. Made a few trashy google sites and quit for a while.",
     color: "border-retro-teal",
   },
   {
-    year: "2024",
-    title: "JavaScript Awakening",
-    desc: "Learned JavaScript and made everything interactive. Alert boxes everywhere.",
+    year: "Late 2024",
+    title: "Starting JS",
+    desc: "Accidentally stumbled apon some JavaScript tutorials on YouTube and got into it again.",
     color: "border-retro-gold",
   },
   {
     year: "2024",
-    title: "Python Discovery",
-    desc: "Started learning Python for school and fell in love. Made a text adventure game.",
+    title: "First Game",
+    desc: "Made a basic text adventure game as a school project.",
     color: "border-retro-rose",
   },
   {
     year: "2025",
-    title: "React Revolution",
+    title: "Using React",
     desc: "Found React and my brain exploded. Components? State? Amazing.",
     color: "border-retro-teal",
   },
@@ -67,11 +67,11 @@ const timeline = [
 ]
 
 const funThings = [
-  "When my code compiles on the first try (rare)",
+  "When my code works on the first try (rare)",
   "Finding a bug that's been annoying me for hours",
   "Learning a new programming concept",
   "When someone says my project is cool",
-  "Midnight coding sessions (don't tell mum)",
+  "Coding before 4 AM (don't tell mum)",
   "The sound of a mechanical keyboard",
   "Dark mode. Always dark mode.",
 ]
@@ -95,13 +95,13 @@ export default function AboutPage() {
             <p className="text-foreground">
               Hey! I&apos;m a 13 year old student in Year 8, and I&apos;m completely
               obsessed with coding and technology. I started learning to code when
-              I was about 11, and I haven&apos;t stopped since.
+              I was about 11.
             </p>
             <p className="text-foreground">
               My journey began with Scratch (yes, the block-based one!) and I quickly
               moved on to HTML and CSS. Then I discovered JavaScript and my mind was
-              blown. Now I mainly work with React, Next.js, Python, and I&apos;m
-              learning TypeScript.
+              blown. Now I mainly work with React, Next.js, TypeScript and I&apos;m
+              learning Python.
             </p>
             <p className="text-foreground">
               When I&apos;m not coding, you&apos;ll probably find me playing Minecraft,
