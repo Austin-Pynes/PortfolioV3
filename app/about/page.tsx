@@ -35,7 +35,7 @@ const timeline = [
     color: "border-retro-teal",
   },
   {
-    year: "Late 2024",
+    year: "2024",
     title: "Starting JS",
     desc: "Accidentally stumbled apon some JavaScript tutorials on YouTube and got into it again.",
     color: "border-retro-gold",
@@ -98,14 +98,14 @@ export default function AboutPage() {
               I was about 11.
             </p>
             <p className="text-foreground">
-              My journey began with Scratch (yes, the block-based one!) and I quickly
-              moved on to HTML and CSS. Then I discovered JavaScript and my mind was
-              blown. Now I mainly work with React, Next.js, TypeScript and I&apos;m
-              learning Python.
+              My journey started with Scratch (yes, the block-based one), where I made a very questionable platformer and thought I was a game developer.
+              I tried learning “real” coding after that, got overwhelmed, and actually quit for a while.
+              In 2024 I found JavaScript tutorials on YouTube, gave it another shot, and this time it clicked. 
+              Since then I’ve moved into React, started building with Next.js, picked up TypeScript, and I’m currently learning Python on the side.
             </p>
             <p className="text-foreground">
-              When I&apos;m not coding, you&apos;ll probably find me playing Minecraft,
-              watching tech YouTube videos, or trying to convince my friends that Linux
+              When I&apos;m not coding, you&apos;ll probably find me playing games,
+              going outside, or trying to convince my friends that Linux
               is actually cool (they don&apos;t believe me yet).
             </p>
           </div>
