@@ -15,60 +15,6 @@ const projects = [
     category: "game",
   },
   {
-    name: "Todo App Deluxe",
-    description:
-      "Not just any todo app -- categories, due dates, priority levels, and persistent storage so your todos stick around.",
-    tech: ["React", "CSS", "localStorage"],
-    status: "Complete",
-    year: "2025",
-    category: "web",
-  },
-  {
-    name: "Discord Bot - QuizMaster",
-    description:
-      "A Discord bot for my friend group that runs trivia quizzes. 500+ questions about coding, gaming, and science.",
-    tech: ["Python", "discord.py"],
-    status: "Active",
-    year: "2025",
-    category: "bot",
-  },
-  {
-    name: "Weather Dashboard",
-    description:
-      "Current conditions, 5-day forecast, and animated weather icons. Uses the OpenWeather API.",
-    tech: ["React", "Next.js", "API"],
-    status: "Complete",
-    year: "2026",
-    category: "web",
-  },
-  {
-    name: "Pixel Art Editor",
-    description:
-      "A browser-based pixel art editor with custom palettes, undo/redo, and PNG export. Great for game sprites.",
-    tech: ["JavaScript", "Canvas API", "HTML"],
-    status: "In Progress",
-    year: "2026",
-    category: "tool",
-  },
-  {
-    name: "CLI Adventure Game",
-    description:
-      "Text-based adventure that runs in the terminal. Branching storylines, inventory system, and multiple endings.",
-    tech: ["Python"],
-    status: "Complete",
-    year: "2024",
-    category: "game",
-  },
-  {
-    name: "Portfolio Website v1",
-    description:
-      "My first portfolio website. Not great. But we all start somewhere. Plain HTML and CSS with way too many inline styles.",
-    tech: ["HTML", "CSS"],
-    status: "Retired",
-    year: "2024",
-    category: "web",
-  },
-  {
     name: "This Website",
     description:
       "The portfolio you're looking at right now. Built with React, Next.js, and Tailwind CSS. My most ambitious web project yet.",
