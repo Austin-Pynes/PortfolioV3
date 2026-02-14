@@ -26,56 +26,6 @@ const logEntries = [
     ],
     tags: ["TypeScript", "learning"],
   },
-  {
-    date: "Jan 15, 2026",
-    title: "Weather Dashboard is complete",
-    mood: "Proud",
-    content: [
-      "Finished my weather dashboard project today! It pulls data from the OpenWeather API and shows the current weather plus a 5-day forecast. I even added animated weather icons.",
-      "The hardest part was handling all the API edge cases. What happens when the API is down? What about rate limiting? I learned about error handling and loading states which was super useful.",
-    ],
-    tags: ["React", "API", "project"],
-  },
-  {
-    date: "Dec 28, 2025",
-    title: "Christmas coding marathon results",
-    mood: "Exhausted",
-    content: [
-      "Spent most of the Christmas break coding (between family stuff obviously). Here's what I accomplished: Fixed 12 bugs in my Discord bot. Started learning Next.js App Router. Redesigned my todo app's UI. Started planning this portfolio site.",
-      "My new year's resolution: ship more projects and stop abandoning them halfway through.",
-    ],
-    tags: ["reflection", "goals"],
-  },
-  {
-    date: "Dec 10, 2025",
-    title: "My first pull request got merged",
-    mood: "Legendary",
-    content: [
-      "I submitted a pull request to fix a typo in the docs of a real open source project... and they MERGED IT. My code is now officially part of a project that thousands of people use.",
-      "OK fine it was just a typo fix. But still! I'm technically an open source contributor now.",
-    ],
-    tags: ["open-source", "milestone", "git"],
-  },
-  {
-    date: "Nov 20, 2025",
-    title: "The Great CSS Incident of 2025",
-    mood: "Pain",
-    content: [
-      "Spent FOUR HOURS trying to centre a div. Tried margin: auto, text-align: center, flexbox, grid, position: absolute... nothing worked.",
-      "Turns out I had a typo in my class name. It was .contaner instead of .container. Lesson learned: always check your spelling before questioning your entire understanding of CSS.",
-    ],
-    tags: ["CSS", "debugging"],
-  },
-  {
-    date: "Oct 5, 2025",
-    title: "Started learning React",
-    mood: "Excited",
-    content: [
-      "Today I wrote my first React component! It was just a button that counts how many times you've clicked it, but it felt like magic. The whole concept of state and components and JSX is so cool.",
-      "useState makes sense. useEffect does NOT. Why does my effect run twice?? I'll figure it out... eventually.",
-    ],
-    tags: ["React", "learning", "beginner"],
-  },
 ]
 
 const moodColors: Record<string, string> = {
