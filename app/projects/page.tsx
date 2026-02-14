@@ -9,7 +9,7 @@ const projects = [
     name: "Space Invaders Clone",
     description:
       "My first game! A Space Invaders clone with levels, a high score system, and sound effects I made myself.",
-    tech: ["Python", "Pygame"],
+    tech: ["Python", "Game"],
     status: "Complete",
     year: "2025",
     category: "game",
@@ -20,7 +20,7 @@ const projects = [
       "The portfolio you're looking at right now. Built with React, Next.js, and Tailwind CSS. My most ambitious web project yet.",
     tech: ["React", "Next.js", "Tailwind"],
     status: "Active",
-    year: "2026",
+    year: "2025-2026",
     category: "web",
   },
 ]
