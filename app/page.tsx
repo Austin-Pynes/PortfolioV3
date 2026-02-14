@@ -27,14 +27,6 @@ const quickLinks = [
     accent: "border-retro-rose/40 hover:border-retro-rose",
     tagColor: "text-retro-rose",
   },
-  {
-    href: "/skills",
-    tag: "SKILLS",
-    title: "Skills & Tech",
-    desc: "Languages, frameworks, and tools I work with.",
-    accent: "border-retro-lime/40 hover:border-retro-lime",
-    tagColor: "text-retro-lime",
-  },
 ]
 
 export default function HomePage() {
