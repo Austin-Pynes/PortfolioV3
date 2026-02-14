@@ -145,10 +145,10 @@ export default function ProjectsPage() {
         <p className="font-mono text-xs text-retro-gold mb-3">// upcoming</p>
         <ul className="space-y-2">
           {[
-            "A multiplayer browser game with WebSockets",
+            "A multiplayer browser game",
             "A Spotify playlist analyzer",
-            "My own programming language (ambitious, I know)",
-            "A mobile app with React Native",
+            "Piano simulator",
+            "Android app",
           ].map((item, i) => (
             <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
               <span className="text-retro-teal font-mono text-xs mt-0.5">+</span>
