@@ -6,7 +6,7 @@ const titles = [
   "Year 8 Developer",
   "React Enthusiast",
   "Code Wizard",
-  "Bug Creator & Fixer",
+  "King Of Breaking Code",
   "Future Engineer",
   "Open Source Fan",
 ]
