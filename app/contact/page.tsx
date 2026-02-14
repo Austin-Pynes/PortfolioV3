@@ -7,21 +7,21 @@ import { useState, type FormEvent } from "react"
 const socials = [
   {
     name: "GitHub",
-    handle: "@your-username",
+    handle: "@austin-pyne",
     desc: "All my open source code and projects live here.",
     color: "border-retro-lime/40 hover:border-retro-lime",
     labelColor: "text-retro-lime",
   },
   {
-    name: "Discord",
-    handle: "your_username",
+    name: "Placeholder",
+    handle: "@austin-pyne",
     desc: "Best way to chat with me. I'm usually online after school.",
     color: "border-retro-teal/40 hover:border-retro-teal",
     labelColor: "text-retro-teal",
   },
   {
     name: "Scratch",
-    handle: "@your-username",
+    handle: "@austin-pyne",
     desc: "Where it all started. Some of my early projects are still there.",
     color: "border-retro-gold/40 hover:border-retro-gold",
     labelColor: "text-retro-gold",
