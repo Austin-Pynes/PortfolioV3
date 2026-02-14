@@ -9,9 +9,9 @@ const categories = {
     items: [
       { name: "Laptop", detail: "Windows 11 laptop (it does the job!)" },
       { name: "Monitor", detail: "My laptop screen + an old monitor for dual screen" },
-      { name: "Keyboard", detail: "A basic mechanical keyboard (blue switches)" },
+      { name: "Keyboard", detail: "A basic gaming keyboard" },
       { name: "Mouse", detail: "Nothing fancy, just a regular mouse" },
-      { name: "Headphones", detail: "Sony headphones for lofi beats while coding" },
+      { name: "Headphones", detail: "JBL headphones that work decently" },
     ],
   },
   software: {
@@ -19,7 +19,7 @@ const categories = {
     items: [
       { name: "Editor", detail: "VS Code with One Dark Pro theme" },
       { name: "Terminal", detail: "Windows Terminal with Git Bash" },
-      { name: "Browser", detail: "Chrome (Dev Edition) + Firefox for testing" },
+      { name: "Browser", detail: "Firefox. Always Firefox." },
       { name: "Design", detail: "Figma for UI planning" },
       { name: "Notes", detail: "Notion for project planning and ideas" },
     ],
@@ -100,11 +100,10 @@ export default function SetupPage() {
         </p>
         <ul className="space-y-2">
           {[
-            "A proper mechanical keyboard (maybe a custom one)",
+            "A proper mechanical keyboard",
             "An ultrawide monitor",
-            "A Raspberry Pi for home projects",
+            "Some basic Raspberry Pi's",
             "A Linux dual-boot setup",
-            "A drawing tablet for design work",
           ].map((item, i) => (
             <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
               <span className="text-retro-teal font-mono text-xs mt-0.5">+</span>
