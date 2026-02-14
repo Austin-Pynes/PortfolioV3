@@ -18,13 +18,13 @@ const logEntries = [
   {
     date: "Jan 29, 2026",
     title: "TypeScript is actually amazing??",
-    mood: "Mind blown",
+    mood: "Excited",
     content: [
-      "I've been avoiding TypeScript for months because it looked scary with all the angle brackets and stuff. But I finally sat down and started learning it properly and... it's actually incredible?",
-      "The way it catches errors BEFORE you even run the code? I spent 2 hours debugging a bug last week that TypeScript would have caught instantly. I'm converted.",
-      "Still confused about generics though. What even IS a <T>?? I'll figure it out eventually.",
+      "Looking through some NeoCities sites for some inspiration because I thought I was lacking some pages, eventually settled on making a dev log.",
+      "Might still be missing a few cool pages that I  may eventually decide I want to add to this site but it is what it is I guess.",
+      "Will update this often (maybe)",
     ],
-    tags: ["TypeScript", "learning"],
+    tags: ["Pages", "learning"],
   },
 ]
 
